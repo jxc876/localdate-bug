@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jdbc, gradle, http-client, jackson-databind, jdbc-hikari, kotest, kotlin, kotlin-application, kotlin-build, logback, micronaut-build, netty-server, postgres, readme, shade, test-resources, yaml]
