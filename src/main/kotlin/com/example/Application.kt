@@ -9,6 +9,7 @@ import io.micronaut.runtime.Micronaut.run
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.*
+import kotlin.system.exitProcess
 
 val id: UUID = UUID.randomUUID()
 val date: LocalDate = LocalDate.parse("2023-09-28", DateTimeFormatter.ISO_LOCAL_DATE)
@@ -37,5 +38,7 @@ fun main(args: Array<String>) {
 	// read back from database
 	val eventFromDb = repo.findById(id)
 	println("*** date from db ===> ${eventFromDb.get().date}")
+
+	exitProcess(0)
 }
 

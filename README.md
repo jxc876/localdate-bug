@@ -10,6 +10,11 @@ Logs show the right value being sent:
 TRACE io.micronaut.data.query - Binding parameter at position 1 to value 2023-09-28 with data type: DATE
 ```
 
+# Execute
+
+Configure then run main class: `./gradlew run`
+
+
 # Setup
 
 * Update the data source in `application.yml`:
